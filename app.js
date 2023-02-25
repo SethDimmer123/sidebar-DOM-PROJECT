@@ -17,11 +17,35 @@ toggleBtn.addEventListener("click", function() {
     else{
         sidebar.classList.add('show-sidebar') 
     }
+
+    // this is the second and shorter of toggling the hamburger menu
+    // sidebar.classList.toggle('show-sidebar')
+});
+
+//  i am checking if the sidebar that i have selected has the class of show-sidebar(line 9)
+// if it DOES NOT then i will add the show sidebar class(line 18)
+
+// if the sidebar already has the class of show-sidebar class then i will remove it from the sidebar (line 14)
+
+
+// 4:39 WORKING ON CLOSE BUTTON to close the sidebar
+
+closeBtn.addEventListener("click", function() {
+    console.log(sidebar.classList)
+    sidebar.classList.remove('show-sidebar')
 })
 
-//  i am checking if the sidebar that i have selected has the class of show-sidebar
-// if it DOES NOT then i will add the show sidebar class
 
-// if the sidebar already has the class of show-sidebar class then i will remove it from the sidebar
+// in the css i hide the sidebar by DEFAULT (LINE 250)
+
+//  THEN TOGGLE CLASS THAT HAS THE VALUE OF transform:trnaslate(0)
+
+// SETUP THE CSS BEFORE MOVING ONTO THE JAVASCRIPT
+
+
+
+
+
+
 
 
