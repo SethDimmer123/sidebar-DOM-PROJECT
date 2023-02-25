@@ -239,7 +239,7 @@ Sidebar
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 100%; /* thw width and height takes up all the space on the page*/
   height: 100%;
   background: var(--clr-white);
   display: grid;
@@ -247,7 +247,7 @@ Sidebar
   row-gap: 1rem;
   box-shadow: var(--clr-red-dark);
   transition: var(--transition);
-  /* transform: translate(-100%); */
+  /* transform: translate(-100%); */ /*by default i hide the sidebar*/
 }
 .show-sidebar {
   transform: translate(0);
